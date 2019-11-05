@@ -1,0 +1,198 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryde | Share the fare</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="MVP2.html">RYDE</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#intro">About</a></li>
+          <li><a href="DatabasePHP/Passenger/welcome.php">Passenger</a></li>
+          <li><a href="DatabasePHP/Driver/welcome.php">Driver</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text -->
+    
+    
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1>Share the fare</h1>
+        <p>Need a lift somewhere and want to save money? Click the link below to start searching for drivers and passengers to share the fare with! </p>
+        <a href="DatabasePHP/citysearchtest.php" class="btn btn-large">Start Searching</a> </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+</section>
+<!-- header section --> 
+<!-- intro section -->
+    <section id="services" class="services service-section">
+  <div class="container">
+    <div class="text-center">
+        <h2>Start using Ryde!</h2>
+        <p>Ryde is the perfect way to get to your destination safely and quickly whilst saving yourself some money at the same time. We are a fairly new service but are looking to expand our user base by providing the best lift service out there. To sign up for Ryde simply click the sign up link below and get your first Ryde today!</p>
+        
+         <a href="DatabasePHP/Passenger/PassReg.html" class="btn btn-large">Sign up</a>
+        
+    </div>
+  </div>
+</section> 
+<section id="intro" class="section intro">
+  <div class="container">
+      <div class="text-center">
+          <h2>How does it work?</h2>
+      <img src="images/info.png" alt="Info Image">
+    </div>
+  </div>
+</section>
+<!-- intro section --> 
+<!-- services section -->
+   
+<section id="services2" class="services service-section">
+  <div class="container">
+    <div class="text-center">
+        <h2>Want to drive for Ryde?</h2>
+        <p>We are constantly looking for new drivers and its easy to sign up. When you want to drive and make money, just check the website for users going the same way. You’ll get information about your passenger(s) and their location and destination. When the trip is over you will recieve payment from your passenger(s). To drive with Ryde you will need to have a full UK Driving license and accept our terms of service. We also reserve the right to remove any driver from our system if the terms of service are breached.</p>
+        
+         <a href="DatabasePHP/Driver/DriverReg.html" class="btn btn-large">Sign up</a>
+        
+    </div>
+  </div>
+</section>
+    
+    <section id="faq" class="faq faq-section">
+        <div class="container">
+            <div class="text-center">  <h2>Frequently Asked Questions</h2> </div>
+
+  <div class="accordion">
+    <div class="accordion-item">
+      <a>Is Ryde safe?</a>
+      <div class="content">
+        <p>The safety of our users is our number one priority. We make sure our drivers have a full UK driving licence and any reports against a driver will be investigated thoroughly by our team. </p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>How do I request a ride?</a>
+      <div class="content">
+        <p>Login in as a Passenger and search for a booking. If you see one you want click the link beside the booking and fill out the form</p>
+      </div>
+    </div>
+    
+    <div class="accordion-item">
+      <a>How can I start driving for Ryde?</a>
+      <div class="content">
+        <p>Click the sign up link on the homepage.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+</section>
+    
+    
+
+
+<!-- contact section -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 conForm">
+        <h5>Shoot An Email</h5>
+        <p>We are happy to answer any other questions you may have. Our dedidcated team will get back to you as soon as possible.</p>
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+          <textarea name="comments" id="comments" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Questions..."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send your query">
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact section --> 
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>Ulster University, Shore Road, Newtownabbey<br>
+            Co. Antrim , BT37 0QB<br>
+             028 7012 3456</p>
+          
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Quick Links</h5>
+          <p>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#intro">About</a></li>
+              <li><a href="DatabasePHP/Passenger/welcome.php">Passenger</a></li>    
+              <li><a href="DatabasePHP/Driver/welcome.php">Driver</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Share with Love</h5>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
+</footer>
+<!-- Footer section --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script> 
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+</body>
+</html>

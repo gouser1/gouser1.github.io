@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  background-color: #C5C3C6;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+    text-align: center;
+    color: white;
+}
+
+label {
+  color: white;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+/* -------------------- Page Styles (not required) */
+div {
+  margin: 20px;
+}
+
+.style-menu {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+    color: white;
+}
+.style-menu select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px;
+  /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
+    color: white;
+}
+.style-menu.slate {
+  background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+  height: 34px;
+  width: 240px;
+}
+.style-menu.slate select {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 34px;
+  width: 268px;
+}
+
+.login-box {
+	background-color: #336699;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box button {
+    font-family: 'Roboto';
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    background-color: #c5c3c6;
+    cursor: pointer;
+    outline: none;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
